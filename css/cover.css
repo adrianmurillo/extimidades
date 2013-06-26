@@ -1,0 +1,50 @@
+html {
+	width: 100%;
+}
+
+body {
+	background-color: #030406;
+	cursor: pointer;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 4em;
+	color: #c19b5b;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 0.8em;
+	color: gray;
+}
+
+strong {
+	color: #a1320e;
+}
+
+img {
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+
+p {
+	color: #C7B671;
+	padding-top: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+
+#page {
+	background-color: #030406;
+	-moz-box-shadow: 0 0 #000;
+	-webkit-box-shadow: 0 0 #000;
+	box-shadow: 0 0 #000;
+}
+
+a {
+	color: gray;
+	font-size: 0.8em;
+}

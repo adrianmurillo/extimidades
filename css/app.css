@@ -1,0 +1,171 @@
+html {
+	width: 100%;
+}
+
+body {
+	background-color: #f5f5f5;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+strong {
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+header {
+	color: #fff;
+	background-color: #000;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 0px;
+	vertical-align: middle;
+	position: fixed;
+}
+
+footer {
+	text-align: center;
+	color: #5f5f5f;
+	background-color: #f5f5f5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.5em;
+}
+
+h1 {
+	color: #111;
+	font-family: sans-serif;
+	font-size: 2em;
+	margin-bottom:0.2em;
+	line-height: 1.4em;
+}
+
+p {
+	color: #222;
+	font-family: sans-serif;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+li {
+	margin-left: 30px;
+}
+
+img {
+	vertical-align: top;
+}
+
+a {
+	color: #000;
+}
+
+#content {
+	background-color: #f00;
+	padding-top: 50px;
+}
+
+.tbbutton {
+	width: 5%;
+	cursor: pointer;
+}
+
+.tbbutton img {
+	margin: 5px;
+}
+
+.tbtitle {
+	text-align: center;
+	width: 70%;
+	padding-top: 5px;
+	cursor: pointer;
+}
+.tbcontents {
+	width: 15%;
+	text-align: right;
+	cursor: pointer;
+}
+
+.tbcontents img {
+	margin: 5px;
+}
+
+.author {
+	text-align: right;
+	font-size: 0.7em;
+	color: #888;
+	font-style: italic;
+}
+
+.titleimage {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.pagewidth {
+	width: 960;
+	margin: auto;
+}
+@media (max-width: 768px) {
+	.pagewidth {
+		width: 768;
+		margin: auto;
+	}
+}
+@media (max-width: 320px) {
+	.pagewidth {
+		width: 320;
+		margin: auto;
+	}
+}
+
+#page {
+	background-color: #fff;
+	-moz-box-shadow: 0px 0px 5px 5px #e5e5e5;
+	-webkit-box-shadow: 0px 0px 5px 5px #e5e5e5;
+	box-shadow: 0px 0px 5px 5px #e5e5e5;
+}
+
+#content {
+	background-color: #fff;
+	padding: 30px 50px 30px 50px;
+}
+
+.twocolumns {
+}
+
+.columnonethird { 
+	width: 33%;
+}
+.columnhalf {
+	width: 50%;
+}
+.columntwothirds {
+	width: 66%;
+}
+.left{padding-right: 30px;}
+.right{padding-left: 30px;}
+
+.centered {
+	text-align: center;
+}
+
+.righted {
+	text-align: right;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.photoattribution {
+	text-align: right;
+	font-size: 0.5em;
+	margin-bottom: 1.5em;
+}

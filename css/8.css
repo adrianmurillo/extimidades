@@ -1,0 +1,17 @@
+h1 {
+	color: #b55d5a;
+}
+
+strong {
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+	margin-bottom: 0.9em;
+	font-style: italic;
+}
+
+.marginbottom {
+	margin-bottom: 50px;
+}

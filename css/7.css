@@ -1,0 +1,29 @@
+h1 {
+	color: #a1320e;
+}
+
+strong {
+	color: #a1320e;
+}
+
+p {
+	text-align: left;
+	margin-bottom: 0.9em;
+}
+
+ul {
+	list-style-type: square;
+}
+li {
+	margin-bottom: 0.2em;
+}
+
+.me {
+	font-style: italic;
+	color: #000;
+}
+
+.them {
+	font-style: italic;
+	color: #000;
+}

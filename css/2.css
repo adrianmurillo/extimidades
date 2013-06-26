@@ -1,0 +1,28 @@
+h1 {
+	color: #a1320e;
+}
+
+h2 {
+	color: #c19b5b;
+	text-align: center;
+	font-size: 1.8em;
+	margin-bottom: 1.8em;
+	margin-top: 1.8em;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+strong {
+	font-size: 0.7em;
+	color: #888;
+	font-style: italic;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 1.5em;
+	font-size: 1.1em;
+}

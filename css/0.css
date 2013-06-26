@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+	color: #c19b5b;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 40px;
+}
+
+strong {
+	color: #a1320e;
+}
+
+h2 {
+	color: #C7B671;
+	padding-top: 20px;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+p {
+	margin-top: 40px; 
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 1em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+}
