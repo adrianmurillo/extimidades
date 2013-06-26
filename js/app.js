@@ -4,17 +4,10 @@ initScreen = function(){
 	var iIndex = parseInt(sPage.substring(0, sPage.lastIndexOf('.')), 10);
 
 	goNext = function(){
-		if (isNaN(iIndex))
-		{
-			document.location.replace("0.html");
-		}
+		if  (iIndex < magazine.pages.length)
+			document.location.replace((iIndex+1) + ".html");
 		else
-		{
-			if  (iIndex < magazine.pages.length)
-				document.location.replace((iIndex+1) + ".html");
-			else
-				document.location.replace("cover.html");
-		}
+			document.location.replace("cover.html");
 	}
 
 	goPrevious = function(){

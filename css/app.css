@@ -5,7 +5,7 @@ html {
 body {
 	background-color: #f5f5f5;
 	width: 100%;
-	font-family: sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
@@ -39,7 +39,7 @@ footer {
 
 h1 {
 	color: #111;
-	font-family: sans-serif;
+	font-family: 'Orienta', sans-serif;
 	font-size: 2em;
 	margin-bottom:0.2em;
 	line-height: 1.4em;
@@ -47,7 +47,7 @@ h1 {
 
 p {
 	color: #222;
-	font-family: sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 }
 
 ol {
@@ -109,20 +109,8 @@ a {
 }
 
 .pagewidth {
-	width: 960;
+	width: 960px;
 	margin: auto;
-}
-@media (max-width: 768px) {
-	.pagewidth {
-		width: 768;
-		margin: auto;
-	}
-}
-@media (max-width: 320px) {
-	.pagewidth {
-		width: 320;
-		margin: auto;
-	}
 }
 
 #page {
